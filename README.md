@@ -12,3 +12,6 @@ Tools:
 - VS Code
 - TinyPNG
 - NPM + Grunt
+
+Task:
+Vytvoření single page stránky dle grafické předlohy ve Figmě
