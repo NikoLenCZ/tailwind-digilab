@@ -1,0 +1,226 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Poppins', sans-serif, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+}
+
+/* Navigation */
+
+nav a {
+  transition: all 0.2s ease-in;
+}
+
+.navbar-icon {
+  transition: all 1s ease;
+}
+
+.nav-list {
+  transition: all 1.1s ease;
+}
+
+@media (max-width: 1024px) {
+  .show {
+    height: 100vh;
+  }
+}
+
+/* Custom */
+
+@media (max-width: 768px) {
+  .c-max-h-slider {
+    max-height: 32rem; /* 850px */
+  }
+  }
+
+@media (max-width: 1024px) {
+.c-max-h-slider {
+  max-height: 53.125rem; /* 850px */
+}
+}
+
+@media (min-width: 1525px) {
+  .c-max-h-slider {
+    height: 63.125rem;
+  }
+  }
+
+.c-text-shadow {
+  text-shadow: 3px 4px 3px #C8C7CF;
+}
+
+@media (min-width: 1024px) {
+  .c-h-52 {
+height: 52rem;
+}
+
+.c-w-52 {
+  height: 44rem;
+}
+}
+
+/* Position images - player*/
+
+.position-box-player {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  right: 0;
+  bottom: -26rem;
+  z-index: 5;
+}
+
+.player-decoration {
+  width: 32rem;
+  height: 42rem;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (min-width: 1160px) {
+  .player-decoration  {
+    width: 43rem;
+  height: 53rem;
+  right: -13rem;
+}
+}
+
+@media screen and (min-width: 1566px) {
+
+  .position-box-player {
+    bottom: -18rem;
+  }
+
+  .player-decoration {
+    width: 50rem;
+    height: 60rem;
+    right: -13rem;
+    bottom: -8rem;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+.player-decoration {
+  width: 50rem;
+  height: 60rem;
+  right: 0;
+
+}
+
+.position-box-player {
+  right: 0;
+}
+}
+
+/* / Position images - player*/
+
+/* Position images - phone */
+.position-box-phone {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.phone-decoration {
+  width: 32rem;
+  height: 36rem;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: 2rem;
+  top: -6rem;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .phone-decoration {
+    height: 45rem;
+    left: 5rem;
+    top: -7rem;
+  }
+
+}
+
+@media screen and (min-width: 1536px) {
+
+  .position-box-phone {
+    bottom: 0;
+    top: 0;
+  }
+
+  .phone-decoration {
+    height: 57rem;
+    top: -10rem;
+  }
+
+}
+/* / Position images - phone */
+
+/* Slider */
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
+
+.splide__arrow svg {
+  fill: white!important;
+
+}
+
+.splide__arrow svg:hover {
+  fill:  #8d8d8d!important;;
+}
+
+.splide__arrow {
+  background: none!important;
+  border: none!important;
+  height: 4rem!important;
+  opacity: 1!important;
+}
+
+.splide__arrow--next {
+  right: 1rem!important;
+}
+
+.splide__arrow--prev {
+  left: 1rem!important;
+}
+
+@media (min-width: 1024px) {
+  .splide__arrow svg {
+    width: 4.5rem!important;
+    height: 4rem!important;
+
+  }
+
+  .splide__arrow {
+    width: 4.5rem!important;
+
+  }
+
+  .splide__arrow--next {
+    right: 4rem!important;
+  }
+
+  .splide__arrow--prev {
+    left: 4rem!important;
+  }
+
+  }
+
+
+
+
+
+

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1. fotbalová liga</title>
+  <meta name="description" lang="cs" content="1. fotbalová liga">
+  <meta name="keywords" content="fotbal, hráči, FC Chelsea, Petr Čech">
+  <meta name="author" content="Lenka Nikodýmová">
+  <meta name="robots" content="index, follow">
+  <link href="./assets/css/min/style.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+</head>
+
+<body class="bg-secondary">
+  <main class="text-white">
+    <!-- Header -->
+    <header class="sticky w-full top-0 z-50">
+      <!-- Navigation -->
+      <nav class=" bg-primary flex justify-between h-20 px-3 lg:px-8 xl:px-36">
+        <img class="h-10" src="./img/logo.svg" alt="main logo">
+        <div class="navbar-icon text-white text-4xl p-5 leading-10 cursor-pointer block items-end lg:hidden">
+          &#9776;
+        </div>
+        <ul
+          class="nav-list bg-primary absolute z-50 h-0 top-20 overflow-hidden w-full left-0 uppercase font-bold items-center ml-auto lg:flex-row lg:justify-end lg:top-0 lg:relative lg:h-fit lg:flex">
+          <li class="nav-item lg:w-fit  grid justify-center"><a class="nav-link p-7 hover:bg-secondary" href="#about">O
+              nás</a>
+          </li>
+          <li class="nav-item lg:w-fit  grid justify-center"><a class="nav-link p-7 hover:bg-secondary"
+              href="#players">Hráči</a>
+          </li>
+          <li class="nav-item lg:w-fit  grid justify-center"><a class="nav-link p-7 hover:bg-secondary"
+              href="#services">Služby</a></li>
+          <li class="nav-item lg:w-fit  grid justify-center"><a class="nav-link p-7 hover:bg-secondary"
+              href="#contact">Kontakt</a></li>
+          <li class="nav-item lg:w-fit grid justify-center"><a class="nav-link p-6 hover:bg-secondary"
+              href="https://www.linkedin.com/">
+              <img class="max-h-7" src="./img/logo-linkedin.png" alt="linkedIn icon"></a></li>
+          <li class="nav-item lg:w-fit grid justify-center"><a class="p-6 nav-link hover:bg-secondary"
+              href="https://www.instagram.com/">
+              <img class="max-h-7" src="./img/logo-insta.png" alt="instagram icon"></a></li>
+          <li class="nav-item lg:w-fit grid justify-center">
+            <a class="p-6 hover:bg-secondary" href="#"><img class="max-h-7" src="./img/czech.jpg" alt="czech flag"></a>
+
+          </li>
+        </ul>
+      </nav>
+      <!-- / Navigation -->
+      <h1 class="invisible absolute -top-96">První fotbalová liga</h1>
+    </header>
+    <!-- / Header -->
+    <!-- Main banner slider -->
+    <section class="c-max-h-slide w-full ">
+      <div class="splide c-max-h-slider ">
+        <div class="splide__slider">
+          <div class="splide__track">
+            <ul class="splide__list c-max-h-slider ">
+              <li class="splide__slide c-max-h-slider ">
+                <img class="relative object-cover c-max-h-slider " src="./img/slide2.jpg" alt="main banner Petr Cech">
+                <div class="absolute left-0 bottom-0 pl-6 pb-6 c-text-shadow md:pl-20 md:pb-20">
+                  <p class="text-2xl md:text-5xl font-semibold">Petr Čech</p>
+                  <p class="text-xl md:text-2xl font-semibold">Chelsea</p>
+                </div>
+              </li>
+              <li class="splide__slide c-max-h-slider ">
+                <img class="relative object-cover c-max-h-slider " src="./img/slide.jpg" alt="main banner 2 Petr Cech">
+                <div class="absolute left-0 bottom-0 pl-6 pb-6 c-text-shadow md:pl-20 md:pb-20">
+                  <p class="text-2xl md:text-5xl font-semibold">Petr Čech</p>
+                  <p class="text-xl md:text-2xl font-semibold">Chelsea</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / Main banner slider -->
+    <!-- Section about us -->
+    <section class="w-full bg-primary py-16 md:py-28 " id="about">
+      <div class="container mx-auto lg:flex justify-center gap-24 ">
+        <div class="basis-full lg:basis-1/2">
+          <img class="max-w-full max-h-full" src="./img/business-people-office.png" alt="office people">
+        </div>
+        <div class="lg:basis-1/2 px-4">
+          <h2 class="text-center lg:text-left uppercase italic text-5xl md:text-6xl lg:text-8xl font-bold my-5 lg:my-8">
+            O nás
+          </h2>
+          <p class="my-6 leading-10">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vel lectus. Donec
+            odio tempus
+            molestie,
+            porttitor ut, iaculis quis, sem. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Vestibulum
+            fermentum tortor id mi. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec
+            bibendum odio risus sit amet ante. Donec ipsum massa, ullamcorper in.</p>
+          <div>
+            <div class="flex justify-center lg:justify-start">
+              <a class="block text-center w-44 font-medium leading-7 py-4 px-7 border border-white rounded-md"
+                href="#contact">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / Section about us -->
+    <!-- Section our team -->
+    <section class="w-full bg-secondary py-16 md:py-28 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-center lg:text-left uppercase italic text-5xl md:text-6xl lg:text-8xl font-bold my-5 lg:my-8">
+          Náš tým
+        </h2>
+        <!-- team member 1 -->
+        <div class="md:flex justify-center w-6xl gap-12 mx-auto my-20">
+          <img class="mx-auto lg:mx-0 basis-52 h-52 w-52 object-cover object-top rounded-md mb-8 md:mb-0"
+            src="./img/hanus.jpg" alt="Daniel Hanuš">
+          <div class="max-w-xl basis-2/3 mx-auto lg:mx-0 ">
+            <h3 class="text-center md:text-left italic font-semibold text-3xl leading-10 mb-3">
+              Daniel Hanus
+            </h3>
+            <p class="text-center md:text-left font-medium text-lg leading-7 mb-8">
+              CEO
+            </p>
+            <p class="leading-9">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vel lectus. Donec odio tempus molestie,
+              porttitor ut, iaculis quis, sem. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Vestibulum
+              fermentum tortor id mi. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec
+              bibendum odio risus sit amet ante.
+            </p>
+          </div>
+        </div>
+        <!-- / team member 1 -->
+        <!-- team member 2 -->
+        <div class="md:flex justify-center w-6xl gap-12 mx-auto my-20">
+          <img class="mx-auto lg:mx-0 basis-52 h-52 w-52 object-cover object-top rounded-md  mb-8 md:mb-0"
+            src="./img/team-2.png" alt="Daniel Hanuš">
+          <div class="max-w-xl basis-2/3 mx-auto lg:mx-0 ">
+            <h3 class="text-center md:text-left italic font-semibold text-3xl leading-10 mb-3">
+              Daniel Hanus
+            </h3>
+            <p class="text-center md:text-left font-medium text-lg leading-7 mb-8">
+              CEO
+            </p>
+            <p class="leading-9">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vel lectus. Donec odio tempus molestie,
+              porttitor ut, iaculis quis, sem. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Vestibulum
+              fermentum tortor id mi. Nullam feugiat, turpis at pulvinar vulputate, erat libero tristique tellus, nec
+              bibendum odio risus sit amet ante.
+            </p>
+          </div>
+        </div>
+        <!-- / team member 1 -->
+    </section>
+    <!-- / Section our team -->
+    <!-- Section players -->
+    <section class="w-full bg-primary py-16 md:py-28 px-4" id="players">
+      <div class="container mx-auto">
+        <h2 class="text-center lg:text-left italic text-5xl md:text-6xl lg:text-8xl font-bold my-7 md:my-8">
+          Hráči
+        </h2>
+        <div class="md:flex gap-6 lg:gap-16 my-16">
+          <!-- player 1 -->
+          <div class="md:basis-2/6 text-center mb-9 lg:mb-0">
+            <img class="rounded-t-lg" src="./img/kalabiska.jpg" alt="Jan Kalabiška player">
+            <div class="bg-secondary py-10 px-3 rounded-b-lg">
+              <h3 class="italic font-semibold text-3xl leading-10 mb-3">Jan Kalabiška</h3>
+              <p class="font-medium text-lg leading-7 mb-8">1 FC Slovácko</p>
+              <a class="italic underline font-semibold text-xl leading-8 mt-10" href="#">Transfer market</a>
+            </div>
+          </div>
+          <!-- / player 1 -->
+          <!-- player 2 -->
+          <div class="md:basis-2/6 text-center mb-9 lg:mb-0">
+            <img class="rounded-t-lg" src="./img/kalabiska.jpg" alt="Jan Kalabiška player">
+            <div class="bg-secondary py-10 px-3 rounded-b-lg">
+              <h3 class="italic font-semibold text-3xl leading-10 mb-3">Jan Kalabiška</h3>
+              <p class="font-medium text-lg leading-7 mb-8">1 FC Slovácko</p>
+              <a class="italic underline font-semibold text-xl leading-8 mt-10" href="#">Transfer market</a>
+            </div>
+          </div>
+          <!-- / player 2 -->
+          <!-- player 3 -->
+          <div class="md:basis-2/6 text-center mb-9 lg:mb-0">
+            <img class="rounded-t-lg" src="./img/kalabiska.jpg" alt="Jan Kalabiška player">
+            <div class="bg-secondary py-10 px-3 rounded-b-lg">
+              <h3 class="italic font-semibold text-3xl leading-10 mb-3">Jan Kalabiška</h3>
+              <p class="font-medium text-lg leading-7 mb-8">1 FC Slovácko</p>
+              <a class="italic underline font-semibold text-xl leading-8 mt-10" href="#">Transfer market</a>
+            </div>
+          </div>
+          <!-- / player 3 -->
+        </div>
+        <!-- btn all players -->
+        <div class="flex justify-center">
+          <a class="block text-center w-44 font-medium leading-7 py-4 px-7 border border-white rounded-md"
+            href="#">Všichni hráči</a>
+        </div>
+        <!-- / btn all players -->
+      </div>
+    </section>
+    <!-- / Section players -->
+    <!-- Section other services -->
+    <section class="w-full bg-secondary py-20 md:py-36 px-4 relative" id="services">
+      <!-- player image large screen -->
+      <div class="hidden lg:block position-box-player absolute">
+        <div class="player-decoration" style="background-image: url('./img/player.png');">
+        </div>
+      </div>
+      <!-- / player image large screen-->
+      <div class="container mx-auto">
+        <h2 class="text-center lg:text-left italic text-5xl md:text-6xl lg:text-8xl font-bold my-7 md:my-8">
+          Naše služby
+        </h2>
+        <!-- service boxes -->
+        <div class="lg:columns-2 lg:max-w-3xl lg:ml-0 lg:mb-0 xl:max-w-5xl my-16 md:m-28">
+          <div class="flex gap-8 mb-16">
+            <img class="w-8 h-min md:w-20" src="./img/icon.png" alt="document icon">
+            <p class="text-xl md:text-2xl leading-9 font-medium">
+              Uzavírání a prodlužování <br class="hidden md:block">
+              hráčských smluv
+            </p>
+          </div>
+          <div class="flex gap-8 mb-16">
+            <img class="w-8 h-min md:w-20" src="./img/icon.png" alt="document icon">
+            <p class="text-xl md:text-2xl leading-9 font-medium">
+              Uzavírání a prodlužování <br class="hidden md:block">
+              hráčských smluv
+            </p>
+          </div>
+          <div class="flex gap-8 mb-16">
+            <img class="w-8 h-min md:w-20" src="./img/balls.png" alt="balls icon">
+            <p class="text-xl md:text-2xl leading-9 font-medium">
+              Realizace přestupů <br class="hidden md:block">
+              celosvětově
+            </p>
+          </div>
+          <div class="flex gap-8 mb-16">
+            <img class="w-8 h-min md:w-20" src="./img/balls.png" alt="balls icon">
+            <p class="text-xl md:text-2xl leading-9 font-medium">
+              Realizace přestupů <br class="hidden md:block">
+              celosvětově
+            </p>
+          </div>
+        </div>
+        <!-- / service boxes -->
+      </div>
+      <!-- player image mobile screen -->
+      <img class="ml-auto max-w-full max-h-96 md:absolute md:right-0 md:-bottom-24 md:z-10 lg:hidden"
+        src="./img/player.png" alt="player picture">
+      <!-- / player image mobile screen -->
+    </section>
+    <!-- / Section other services -->
+    <!-- Section follow us -->
+    <section class="w-full bg-secondary h-2/3 py-16 md:py-28 lg:py-72" id="contact">
+      <div class="relative container bg-primary mx-auto md:flex max-w-7xl">
+
+        <!-- phone image -->
+        <div class="hidden md:block position-box-phone absolute z-10">
+          <div class="phone-decoration z-20" style="background-image: url('./img/phone.png');">
+          </div>
+        </div>
+        <!-- / phone image -->
+        <!-- text box -->
+        <div class="md:basis-4/6 lg:basis-5/6 py-16 px-10 lg:max-w-2xl xl:max-w-2xl ml-auto xl:mr-24 p-10">
+          <h2 class="text-center lg:text-left italic text-5xl md:text-7xl font-bold my-7 md:my-8">
+            Sledujte nás
+          </h2>
+          <p class="leading-9 mb-5">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Sed vel lectus. Donec odio tempus molestie,
+            porttitor ut, iaculis quis, sem. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Vestibulum
+            fermentum tortor id mi.
+          </p>
+          <!-- links icons -->
+          <div class="flex gap-7 relative z-50">
+            <a class="inline-block bg-white border rounded-full p-5 z-auto" href="https://www.instagram.com/">
+              <img class="w-8 " src="./img/logo-insta.png" alt="instagram icon">
+            </a>
+            <a class="inline-block bg-white border rounded-full p-5" href="https://www.linkedin.com/">
+              <img class="w-8" src="./img/logo-linkedin.png" alt="linkedIn icon">
+            </a>
+          </div>
+          <!-- / links icons -->
+        </div>
+        <!-- / text box -->
+      </div>
+      </div>
+    </section>
+    <!-- / Section follow us -->
+    <!-- Section footer -->
+    <section class="w-full bg-secondary md:h-2/3 py-6 md:py-12 px-4">
+      <div class="container mx-auto border-t border-t-blue-500 pt-4 md:pt-8 lg:py-12">
+        <footer>
+          <p class="text-xl leading-9 font-normal">
+            © 2023 Ideal sport s.r.o
+          </p>
+        </footer>
+      </div>
+    </section>
+    <!-- / Section footer -->
+  </main>
+  <script src="./assets/js/min/script.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-digilab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "build": "tailwindcss -i src/assets/css/input.css -o src/assets/css/tailwind-style.css",
+    "watch": "tailwindcss -i src/assets/css/input.css -o src/assets/css/tailwind-style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-connect": "^3.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-purgecss": "^5.0.0",
+    "sass": "^1.60.0",
+    "tailwindcss": "^3.3.0"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "grunt-contrib-imagemin": "^4.0.0"
+  }
+}
