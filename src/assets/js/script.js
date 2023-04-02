@@ -2,8 +2,8 @@
 
 const splide = new Splide('.splide', {
   type: 'loop',
-  autoplay: 'true',
-  interval: '3000'
+  // autoplay: 'true',
+  // interval: '3000'
 });
 
 splide.mount();
